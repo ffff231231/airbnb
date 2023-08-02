@@ -4,7 +4,7 @@ export const LeftWrapper = styled.div`
   flex: 1;
   display: flex;
   align-items: center;
-  color: red;
+  color: ${(props) => props.theme.color.secondColor};
 
   .logo {
     margin-left: 24px;
